@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript arrays</title>
+</head>
+<body>
+    <script>
+        let array = ["Mango", "Banana", "Orange", "Graphes"];
+    </script>
+
+    <h2>shift method</h2>
+    <script>
+    array.shift();
+    document.write(array);
+    </script>
+
+    <h2>unshift method</h2>
+    <script>
+    array.unshift("Kiwi");
+    document.write(array);
+    </script>
+
+    <h2>changing method</h2>
+    <script>
+    array[3]="Tomato";
+    document.write(array);
+    </script>
+
+    <h2>concatenating method</h2>
+    <script>
+     let new_array = ["potoato, garlic, onion, lemon,"];   
+     document.write(array.concat(new_array));
+    </script>
+
+    <h2>deleting method</h2>
+    <script>
+    delete array [2];
+    document.write(array);
+    </script>
+
+    <h2>copying method</h2>
+    <script>
+    array.copyWithin(2,0);
+    document.write(array);
+    </script>
+
+    <h2>flat method</h2>
+    <script>
+    let aray = [[1,2], [3,4], [5,6]];
+    aray.flat();
+    document.write(aray);
+    </script>
+
+</body>
+</html>    
